@@ -116,7 +116,7 @@ a {
 } */
 
 .hero-video--section {
-    width: 20rem;
+    width: 30rem;
     border-radius: 2rem;
 }
 
@@ -247,4 +247,37 @@ a {
 
 .contact-section .form-section {
     width: 50%;
+}
+
+@media screen and (max-width: 1200px) {
+    .hero-video--section {
+        width: 20rem;
+        border-radius: 1rem;
+    }
+
+}
+
+@media screen and (max-width: 998px) {
+    .navbar-toggler {
+        border-color: var(--bs-main-color);
+    }
+
+    .navbar-toggler-icon {
+        color: var(--bs-main-color);
+        background-color: var(--bs-main-color);
+        border-radius: 2px;
+    }
+
+    .section .para-width {
+        width: auto;
+    }
+
+    .hero-section {
+        height: 100vh;
+    }
+
+    .more-info-section {
+        text-align: center;
+    }
+
 }
